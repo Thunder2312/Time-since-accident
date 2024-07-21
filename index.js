@@ -13,7 +13,7 @@ function updateCountdown() {
         document.getElementById("countdown").style.color="red";
     }
     else if(daysSinceAccident > 10 && daysSinceAccident < 100){
-        document.getElementById("countdown").style.color="black";
+        document.getElementById("countdown").style.color="purple";
     }
     else{
         document.getElementById("countdown").style.color="green";
