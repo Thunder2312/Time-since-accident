@@ -9,7 +9,7 @@ function updateCountdown() {
     const minutesSinceAccident = Math.floor(timeDifference / (1000 * 60) % 60);
     const secondsSinceAccident = Math.floor(timeDifference / 1000 % 60);
 
-    document.getElementById('countdown').innerHTML = ${daysSinceAccident} days ${hoursSinceAccident} hours ${minutesSinceAccident} minutes ${secondsSinceAccident} seconds;
+    document.getElementById('countdown').innerHTML = `${daysSinceAccident} days ${hoursSinceAccident} hours ${minutesSinceAccident} minutes ${secondsSinceAccident} seconds`;
     if(daysSinceAccident < 10){
         document.getElementById("countdown").style.color="red";
     }
