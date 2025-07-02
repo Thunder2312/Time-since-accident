@@ -2,8 +2,7 @@ const accidentDate = new Date('2024-07-12T09:45:00');
 let display = 0;
 function updateCountdown() {
     const currentDate = new Date();
-    const timeDifference = currentDate.getTime() - accidentDate.getTime();
-    const yearsSinceAccident = Math.floor(timeDifference/ (1000 
+    const timeDifference = currentDate.getTime() - accidentDate.getTime(); 
     const daysSinceAccident = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
     const hoursSinceAccident = Math.floor(timeDifference/ (1000 * 60 * 60) % 24);
     const minutesSinceAccident = Math.floor(timeDifference / (1000 * 60) % 60);
