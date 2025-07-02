@@ -5,6 +5,8 @@ body {
     height: 100vh;
     margin: 0;
     align-items: center;
+    background-color: #000000;
+    color: white;
 }
 
 .container {
@@ -37,7 +39,7 @@ body {
   border-radius: 8px;
   border-style: none;
   box-sizing: border-box;
-  color: black;
+  color: white;
   cursor: pointer;
   display: inline-block;
   font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
